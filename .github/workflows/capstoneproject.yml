@@ -33,7 +33,7 @@ jobs:
       - name: Execute kubernetes comamnd to deploy code
         uses: appleboy/ssh-action@v0.1.10
         with:
-         host:  44.203.98.140
+         host:  52.91.159.177
          username: ${{ secrets.USERNAME }}
          password: ${{ secrets.PASSWORD }}
          port: ${{ secrets.PORT }}
