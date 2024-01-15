@@ -1,6 +1,6 @@
 name: CI workflow for Build
 on:
-  push:
+  workflow_dispatch:
 jobs:
   endproject:
     env:
