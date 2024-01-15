@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: ais
-        image: edu123/docker-image
+        image: bbh67/docker-image
         ports:
         - containerPort: 8090
