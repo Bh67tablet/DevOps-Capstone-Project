@@ -1,3 +1,4 @@
+# how to
 1. add secret keys (Docker, AWS EC2 root/root/host/port)
 2. add terraform user, role access key
 3. edit terraform.tf file with update access key and secret key
@@ -7,7 +8,7 @@
 7. run github actions workflow: .github/workflows/ContinousIntegration.yml
 8. 
 
-
+# this 
 HelloWorld Servlet example with corresponding Dockerfile
 
 Use Maven Build first to create war file in Target folder.
