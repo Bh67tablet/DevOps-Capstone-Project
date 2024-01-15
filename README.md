@@ -3,10 +3,11 @@
 2. add terraform user, role access key
 3. edit terraform.tf file with update access key and secret key
 4. run terraform init/apply
-5. git clone this repository
-6. run install_kubernetes_docker.sh as root (root user password: root)
-7. run github actions workflow: .github/workflows/ContinousIntegration.yml
-8. 
+5. connect to new ec2 as root
+6. git clone this repository
+7. run install_kubernetes_docker.sh as root (root user password: root)
+8. run github actions workflow: .github/workflows/ContinousIntegration.yml
+
 
 # this 
 HelloWorld Servlet example with corresponding Dockerfile
