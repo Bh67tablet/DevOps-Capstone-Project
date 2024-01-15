@@ -1,6 +1,6 @@
 name: CI Workflow for Build capstone_v1
 on:
-  push:
+  workflow_dispatch:
 jobs:
   endproject:
     runs-on: ubuntu-latest
