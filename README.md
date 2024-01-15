@@ -1,3 +1,13 @@
+1. add secret keys (Docker, AWS EC2 root/root/host/port)
+2. add terraform user, role access key
+3. edit terraform.tf file with update access key and secret key
+4. run terraform init/apply
+5. git clone this repository
+6. run install_kubernetes_docker.sh as root (root user password: root)
+7. run github actions workflow: .github/workflows/ContinousIntegration.yml
+8. 
+
+
 HelloWorld Servlet example with corresponding Dockerfile
 
 Use Maven Build first to create war file in Target folder.
