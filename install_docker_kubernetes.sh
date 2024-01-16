@@ -29,4 +29,5 @@ chmod 700 get_helm.sh
 sed -i 's|PasswordAuthentication no|PasswordAuthentication yes|g' /etc/ssh/sshd_config
 sed -i 's|#PermitRootLogin prohibit-password|PermitRootLogin yes|g' /etc/ssh/sshd_config
 service sshd restart
-passwd root
+# passwd root
+sudo usermod --password $(echo root | openssl passwd -1 -stdin) root
