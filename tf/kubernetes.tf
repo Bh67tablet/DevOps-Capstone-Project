@@ -17,9 +17,9 @@ variable "azs" {
 
 provider "aws" {
         region = var.aws_region  
-       access_key = "AKIAQUSXWT33OYHRULWU"
+       access_key = "AKIAQUSXWT33CDC2TP3I"
 
-       secret_key = "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"
+       secret_key = "HLeadwT34tyn4PoMCoifO4XhYUVo9XgHrGrVw1oR"
 
 	
 }
